@@ -20,7 +20,7 @@ const LIBS = '/libs';
 
 // Add any config options.
 const CONFIG = {
-  // codeRoot: '',
+  codeRoot: '/gem',
   // contentRoot: '',
   // imsClientId: 'college',
   // imsScope: 'AdobeID,openid,gnav',
