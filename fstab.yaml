@@ -1,7 +1,5 @@
-# Notes:
-#
-# 1. The URL should be human readable as a path. It should not be a hash.
-# 2. Google Drive is no longer allowed for production Adobe projects.
-
 mountpoints:
-  /: https://adobe.sharepoint.com/:f:/r/sites/adobecom/Shared%20Documents/demos/college
+  /:
+    url: https://440859-genesis-dev.adobeio-static.net/api/v1/web/genesis-aio/eds-content/helpx/
+    type: markup
+    suffix: ".html"
